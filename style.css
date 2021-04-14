@@ -1,15 +1,43 @@
 body {
     position: relative;
-    margin: 0;
     min-width: 1408px;
     font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-    font-size: 16px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 30px;
     color: #5a274b;
     background-color: #ffffff;
     background-image: url("img/flower-bg.jpg");
     background-repeat: no-repeat;
     background-position-y: top;
     background-position-x: calc(50vw + 16px)
-  }
+}
+
+.page-header {
+    margin: 0 0 100px;
+    padding: 32px 0;
+}
   
+header {
+    text-align: left;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #cb4965c4;
+}
+
+.container {
+    text-align: center;
+}
+
+.container .gallery, .container-address {
+    display: flex;
+    justify-content: space-between;
+}
+
+div .container {
+    display: flex;
+}
