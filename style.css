@@ -1,6 +1,5 @@
 body {
     position: relative;
-    min-width: 1408px;
     font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-size: 18px;
     line-height: 30px;
@@ -9,13 +8,15 @@ body {
     background-image: url("img/flower-bg.jpg");
     background-repeat: no-repeat;
     background-position-y: top;
-    background-position-x: calc(50vw + 16px)
+    background-position-x: calc(45vw + 16px);
+    margin: 0;
 }
 
 /* шапка сайта */
-
 .page-header {
-    margin-left: 110px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     padding: 20px 0;
     text-align: left;
     font-size: 16px;
@@ -58,14 +59,17 @@ body {
 
 
 
+
 main {
     padding: 0 16px;
     margin-left: 100px;
 }
+
 h1 {
     font-size: 120px;
     text-transform: uppercase;
     color: #cb4965c4;
+    margin-bottom: 100px;
 }
 
 .advantages {
@@ -75,13 +79,19 @@ h1 {
     padding: 15px 0 60px;
 }
 
-.gallery .container {
+.container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 400px;
+    justify-content: flex-start;
+    margin-left: 0;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
-.gallery .container img {
-    padding: 0 10px;
+.gallery .img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.img5 {
+    margin-right: 0;
 }
