@@ -109,3 +109,7 @@ h1 {
 .visually-hidden {
     display: none;
 }
+
+.delivery-text {
+    margin-left: 40px;
+}
