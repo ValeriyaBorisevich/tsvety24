@@ -10,6 +10,7 @@ body {
     background-position-y: top;
     background-position-x: calc(45vw + 16px);
     margin: 0;
+    width: 1200px;
 }
 
 /* шапка сайта */
@@ -44,21 +45,30 @@ body {
     background-position: left;
 }
 
-.page-header a {
+.page-header a, .delivery-phone, .link {
     color: #5a274b;
 }
 
 .page-header a:focus,
-.page-header a:hover {
+.page-header a:hover,
+.delivery-phone:hover,
+.link:hover {
   color: #c52669;
 }
 
-.page-header a:active {
+.page-header a:active,
+.delivery-phone:active,
+.link:active {
   color: #c52669;
 }
 
+.link {
+    margin-right: 20px;
+}
 
-
+.contacts {
+    display: flex;
+}
 
 main {
     padding: 0 16px;
@@ -94,4 +104,8 @@ h1 {
 
 .img5 {
     margin-right: 0;
+}
+
+.visually-hidden {
+    display: none;
 }
