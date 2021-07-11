@@ -73,6 +73,8 @@ h1 {
     text-transform: uppercase;
     color: #cb4965c4;
     margin-bottom: 100px;
+    line-height: 160px;
+    
 }
 
 .advantages {
@@ -109,4 +111,5 @@ h1 {
 
 .time {
     text-decoration: underline;
+    margin-bottom: 100px;
 }
