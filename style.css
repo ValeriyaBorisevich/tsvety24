@@ -106,3 +106,7 @@ h1 {
 .delivery-text {
     margin-left: 40px;
 }
+
+.time {
+    text-decoration: underline;
+}
