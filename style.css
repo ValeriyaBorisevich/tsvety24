@@ -105,6 +105,27 @@ h1 {
     display: none;
 }
 
+
+figcation {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.shop-phone {
+    color: #5a274b;
+}
+
+.shop-phone:hover {
+    color: #c52669;
+}
+
+.shop-phone:active {
+    color: #c52669;
+}
+
+
+
 .delivery-text {
     margin-left: 40px;
     margin-bottom: 200px;
