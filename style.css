@@ -56,11 +56,13 @@ body {
 }
 
 .link {
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 .contacts {
-    display: flex;
+    display: flex; 
+    font-size: 26px;
+    line-height: 36px;
 }
 
 main {
