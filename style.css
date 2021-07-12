@@ -112,15 +112,15 @@ figcation {
 }
 
 
-.shop-phone {
+.shop-phone, .shop-address {
     color: #5a274b;
 }
 
-.shop-phone:hover {
+.shop-phone:hover, .shop-address:hover {
     color: #c52669;
 }
 
-.shop-phone:active {
+.shop-phone:active, .shop-address:active {
     color: #c52669;
 }
 
