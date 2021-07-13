@@ -8,7 +8,7 @@ body {
     background-image: url("img/flower-bg.jpg");
     background-repeat: no-repeat;
     background-position-y: top;
-    background-position-x: calc(45vw + 16px);
+    background-position-x: calc(45vw + 10px);
     margin: 0;
 }
 
@@ -68,6 +68,11 @@ body {
     display: flex; 
     font-size: 26px;
     line-height: 36px;
+}
+
+.contacts .link {
+    font-size: 32px;
+    line-height: 42px;
 }
 
 main {
