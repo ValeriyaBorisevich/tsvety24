@@ -60,6 +60,10 @@ body {
     margin-bottom: 20px;
 }
 
+.link-whatsapp {
+    margin-left: 10px;
+}
+
 .contacts {
     display: flex; 
     font-size: 26px;
@@ -117,6 +121,7 @@ figcation {
 
 .shop-phone, .shop-address {
     color: #5a274b;
+    margin-bottom: 10px;
 }
 
 .shop-phone:hover, .shop-address:hover {
